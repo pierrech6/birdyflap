@@ -90,7 +90,7 @@
     TunnelTop.center = CGPointMake(TunnelTop.center.x - 1, TunnelTop.center.y);
     TunnelBottom.center = CGPointMake(TunnelBottom.center.x - 1, TunnelBottom.center.y);
     
-    if (TunnelTop.center.x < -70){
+    if (TunnelTop.center.x < -100){
         [self PlaceTunnels];
     }
     
